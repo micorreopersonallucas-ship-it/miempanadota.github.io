@@ -165,7 +165,7 @@
             Object.entries(carrito).forEach(([id, q]) => {
                 if (q > 0) {
                     texto += `• ${q} x ${sabores.find(s => s.id === id).nom}%0A`;
-                }
+   https://github.com/micorreopersonallucas-ship-it/empanada.github.io             }
             });
 
             texto += `%0A*TOTAL: $${(unidades * PRECIO).toLocaleString('es-AR')}*`;
